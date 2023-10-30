@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace People.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("person")]
 public class PersonController : ControllerBase
 {
     private readonly PersonContext _context;

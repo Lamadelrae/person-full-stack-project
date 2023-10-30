@@ -1,0 +1,29 @@
+/* Flat input container */
+.flat-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+/* Flat input label */
+.flat-input label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Flat input field */
+.flat-input input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: border-color 0.2s ease-in-out;
+    width: 100%;
+}
+
+/* Flat input field focus */
+.flat-input input:focus {
+    border-color: #007bff;
+    outline: none;
+}
